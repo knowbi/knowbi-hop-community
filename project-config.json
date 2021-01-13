@@ -1,0 +1,15 @@
+{
+  "metadataBaseFolder" : "${PROJECT_HOME}/metadata",
+  "unitTestsBasePath" : "${PROJECT_HOME}",
+  "dataSetsCsvFolder" : "${PROJECT_HOME}/datasets",
+  "enforcingExecutionInHome" : true,
+  "config" : {
+    "variables" : [ {
+      "name" : "mattermost_url",
+      "value" : "https://chat.project-hop.org"
+    }, {
+      "name" : "target_dir",
+      "value" : "/tmp"
+    } ]
+  }
+}
