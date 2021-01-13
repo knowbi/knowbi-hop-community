@@ -217,7 +217,7 @@
     <fields>
       <field>
         <name>bearer</name>
-        <variable>Bearer ${MM_TOKEN}</variable>
+        <variable>Bearer ${mm_token}</variable>
         <type>String</type>
         <format/>
         <currency/>
