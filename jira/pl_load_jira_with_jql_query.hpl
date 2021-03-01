@@ -482,7 +482,7 @@ var nov = new Date(2020, 10, 01, 0, 0, 0, 0); </jsScript_script>
     </partitioning>
     <applicationType>JSON</applicationType>
     <method>GET</method>
-    <url>https://issues.apache.org/jira/rest/api/2/search?jql=project+%3D+HOP+AND+resolution+in+(Fixed%2C+%22Won%27t+Fix%22%2C+Duplicate%2C+%22Cannot+Reproduce%22%2C+Implemented%2C+Done%2C+Resolved%2C+%22Not+A+Bug%22)+AND+%22Last+public+comment+date%22+%3E%3D+-31d+ORDER+BY+priority+DESC%2C+updated+DESC&amp;decorator=none&amp;maxResults=500</url>
+    <url>https://issues.apache.org/jira/rest/api/2/search?jql=project%20=%20HOP%20AND%20(status%20in%20(Open,%20%22In%20Progress%22)%20OR%20resolution%20in%20(Fixed,%20%22Won%27t%20Fix%22,%20Duplicate,%20%22Cannot%20Reproduce%22,%20Implemented,%20Done,%20Resolved,%20%22Not%20A%20Bug%22))%20and%20%22Last%20public%20comment%20date%22%20%3E=%20-31d%20ORDER%20BY%20priority%20DESC,%20updated%20DESC&amp;decorator=none&amp;maxResults=500</url>
     <urlInField>N</urlInField>
     <dynamicMethod>N</dynamicMethod>
     <methodFieldName/>
